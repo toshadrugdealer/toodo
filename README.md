@@ -1,3 +1,1 @@
-## Deploy on Vercel
-
-[Next.js deployment documentation](https://toodo-iota.vercel.app/)
+[## Deploy on Vercel](https://toodo-iota.vercel.app/)
