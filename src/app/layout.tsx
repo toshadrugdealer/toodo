@@ -27,6 +27,17 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
+			<link
+				rel='apple-touch-icon-precomposed'
+				sizes='114x114'
+				type='image/svg+xml'
+				href='https://static.wikia.nocookie.net/logopedia/images/d/dc/Microsoft_To-Do_2017_App_Button.svg/revision/latest/scale-to-width-down/250?cb=20170421203417'
+			/>
+			<link
+				rel='icon'
+				type='image/svg+xml'
+				href='https://qualitaet-ist-mehrwert.de/wp-content/uploads/microsoft-to-do-365-logo.png'
+			/>
 			<body className={`${geistSans.variable} ${geistMono.variable}`}>
 				<AppRouterCacheProvider>{children}</AppRouterCacheProvider>
 			</body>

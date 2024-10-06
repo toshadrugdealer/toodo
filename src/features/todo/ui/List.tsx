@@ -1,12 +1,11 @@
 'use client'
-import { FC, useState } from 'react'
 import { List as MUIList } from '@mui/material'
 import CreateForm from './CreateForm'
 import Item from './Item'
 import styles from '@/shared/styles/List.module.css'
 import { useTodos } from '../model/useTodos'
 
-const List: FC = () => {
+const List = () => {
 	const {
 		todos,
 		handleAddTodo,
